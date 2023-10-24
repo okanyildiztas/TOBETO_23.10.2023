@@ -5,6 +5,7 @@ var number = 11;
 */
 
 var number = 11;
+/*
 if (number == 10)
 {
     Console.WriteLine("Nummber is 10");
@@ -17,8 +18,8 @@ else
 {
     Console.WriteLine("Number is not 10 or 20");
 }
-
-
+*/
+/*
 switch (number)
 {
     case 10:
@@ -31,4 +32,18 @@ switch (number)
         Console.WriteLine("Number is not 10 or 20");
         break;
 
+}
+*/
+
+if (number >= 0 && number <= 100)
+{
+    Console.WriteLine("Number is between 0-100");
+}
+else if (number > 100 && number <= 200)
+{
+    Console.WriteLine("Number is between 101-200");
+}
+else if(number>200 || number < 0)
+{
+    Console.WriteLine("Number is less than 0 or greater than 200");
 }

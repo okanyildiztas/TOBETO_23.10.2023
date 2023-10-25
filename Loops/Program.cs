@@ -5,14 +5,11 @@
         static void Main(string[] args)
         {
             //ForLoop();
-            int number = 10;
-            do
+            string[] students = new string[3] { "Engin", "Derin", "Salih" };
+            foreach (var student in students)
             {
-                Console.WriteLine(number);
-                number--;
-
-            } while (number >= 11);
-          
+                Console.WriteLine(student);
+            }
 
         }
         private static void ForLoop()

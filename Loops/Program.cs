@@ -10,7 +10,6 @@
             {
                 Console.WriteLine(student);
             }
-
         }
         private static void ForLoop()
         {

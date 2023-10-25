@@ -4,24 +4,30 @@
     {
         static void Main(string[] args)
         {
-            //ForLoop();
-            string[] students = new string[3] { "Engin", "Derin", "Salih" };
-            foreach (var student in students)
+            if (IsPrimeNumber(6))
             {
-                Console.WriteLine(student);
+                Console.WriteLine("This is a prime number");
+            }
+            else
+            {
+                Console.WriteLine("This is not a prime number");
             }
         }
-        private static void ForLoop()
+        private static bool IsPrimeNumber(int number)
         {
-
-            
-            for (int i = 100; i >=0; i=i-2)
+            bool result = true;
+            for (int i = 2; i < number; i++)
             {
-                Console.WriteLine(i);
+                if (number % i == 0)
+                {
+                    result = false;
+                    i = number;
+                }
             }
-            Console.WriteLine("Finished!");
-            
+            return result;
         }
-    }
-         
-}
+    }     }
+
+
+
+

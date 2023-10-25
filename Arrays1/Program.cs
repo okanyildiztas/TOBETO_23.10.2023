@@ -1,4 +1,4 @@
-﻿namespace Arrays
+﻿namespace Arrays1
 {
     internal class Program
     {
@@ -30,10 +30,6 @@
                 {
                     Console.WriteLine(regions[i, j]);
                 }
-
-
-
             }
         }
-    }
-} 
+    }    }
